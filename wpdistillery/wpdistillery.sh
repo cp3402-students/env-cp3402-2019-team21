@@ -202,4 +202,10 @@ fi
 printf "${BLU}»»» checking wp cli version${NC}\n"
 wp cli check-update
 
+printf "${BLU}»»» doing cool stuff${NC}\n"
+cd wp-content
+rm -r *
+git clone https://github.com/cp3402-students/a2-cp3402-2019-team21.git .
+
+
 printf "${BRN}========== WPDISTILLERY FINISHED ==========${NC}\n"
